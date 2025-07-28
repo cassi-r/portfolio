@@ -59,7 +59,7 @@ p {
 }
 
 .content-container{
-    padding: 0;
+    padding: 100px 20px;
     text-align: center;
 }
 
@@ -122,4 +122,16 @@ p {
         padding: 0;
         text-align: center;
     }
+}
+
+.logo {
+    max-width: 150px;
+}
+
+.active {
+    color: var(--branding-color)!important;
+}
+
+.nav-item {
+    padding: 0 10;
 }
