@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Cassi's Portfolio</title>
+    <meta name="description" content="Here are examples of the web engineering Cassi has done on her own. These projects showcase her ability to use and understand hmtl, css, javascript, APIs, and even AI. ">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -25,7 +26,7 @@
   <body>
      <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="images/cassiLogo.png" alt="" class="logo rounded"/></a>
+        <a class="navbar-brand" href=/index.html><img src="images/cassiLogo.png" alt="cassi logo" class="logo rounded"/></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -43,13 +44,13 @@
               <a class="nav-link " aria-current="page" href="/index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="/about.html">About</a>
+              <a class="nav-link " href="/about.html" title="About Cassi">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="/work.html">Work</a>
+              <a class="nav-link active" href="/work.html" title="Cassi's work">Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="/contact.html">Contact</a>
+              <a class="nav-link " href="/contact.html" title="Cassi's contact info">Contact</a>
             </li>
            </ul>
           <form class="d-flex" role="search">
@@ -71,27 +72,64 @@
       <div class="content">
         <div class="row">
             <div class="col-md-6 mb-4">
-              <img src="images/croissants.png" class="img-fluid rounded" alt="" />
-              <h3 class="text-center m-0">Croissant project</h3>
-              <p class="text-center text-muted">Built with HTML, CSS, and Javascript</p>
+              <img src="images/croissants.png" class="img-fluid rounded" alt="croissants preview page" />
+              <h3 class="text-center m-0"> <a href="https://croissant-static-pages.netlify.app/" target="_blank" title="static croissant webpage">Croissant project</a></h3>
+              <p class="text-center text-muted">Built with HTML & CSS</p>
             </div>
           <div class="col-md-6 mb-4">
-            <img src="images/worldclock.png" class="img-fluid rounded" alt="" />
-            <h3 class="text-center">World Clock project</h3>
+            <img src="images/worldclock.png" class="img-fluid rounded" alt="world clock preview page" />
+            <h3 class="text-center"><a href="https://world-clock-by-cassi.netlify.app/" target="_blank" title="world clock app">World Clock project</a></h3>
             <p class="text-center text-muted">Built with an API, HTML, CSS, & JS</p>
           </div>
           <div class="col-md-6 mb-4">
-            <img src="images/weatherapp.png" class="img-fluid rounded" alt="" />
-            <h3 class="text-center m-0">Weather project</h3>
+            <img src="images/weatherapp.png" class="img-fluid rounded" alt="weather app preview page" />
+            <h3 class="text-center m-0"><a href="https://weather-forecast-by-cassi.netlify.app/" target="_blank" title="weather app">Weather project</a></h3>
             <p class="text-center text-muted">Built with weather API, HTML, CSS, and Javascript</p>
           </div>
            <div class="col-md-6 mb-4">
-            <img src="images/recipe.png" class="img-fluid rounded" alt="" />
-            <h3 class="text-center m-0">recipe generator project</h3>
+            <img src="images/recipe.png" class="img-fluid rounded" alt="recipe generator preview" />
+            <h3 class="text-center m-0"> <a href="https://recipe-generator-with-ai.netlify.app/" target="_blank" title="AI recipe generator app">recipe generator project</a></h3>
             <p class="text-center text-muted">Built with AI, HTML, CSS, and Javascript</p>
           </div>
         </div>
       </div>
     </div>
+    <footer class="container">
+        <div class="contact-box d-flex justify-content-between mb-4 d-none d-md-flex">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="/contact.html" title="contact Cassi" class="btn btn-branding mt-3">Contact Me</a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:Cassinr@icloud.com" class="email-link"
+            >cassinr@icloud.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a href="https://www.linkedin.com/in/cassi-rayford-35n/" 
+          target="_blank" 
+          title="linkedIn"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/cassi-r"
+            target="_blank" 
+          title="Github"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.instagram.com/sassy_caz"
+            target="_blank" 
+          title="Instagram"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+      </footer>
+    </div>
+    <h4 class="text-center text-muted mt-5">
+     This project was coded by Cassi Rayford, and is <a href="https://github.com/cassi-r/portfolio"> open-sourced.</a>
+    </h4>
   </body>
 </html>
